@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Afsa: Your Brand</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- <meta name="veiwport" content="width=device-width, initial-scale=1.0">      -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+    <section id="header">
+        <div id="img">
+            <a href="#"><img class="logo" src="img/logo.png" alt=""></img></a>
+        </div>
+        <ul id="navbar">
+            <div>
+                <img id="cross" src="img/other/cross.png" alt=""></img>
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.htmp">Contact</a></li>
+            <li><a class="active" href="cart.html"><img src="img/cart.png" alt=""></img></a></li>
+        </ul>
+        <div id="ham">
+            <a href="#"><img id="cart" src="img/cart.png" alt=""></img></a>
+            <img id="hambar" src="img/other/ham.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="blog-homepage cart-homepage">
+        <div>
+            <h4>#Your Cart</h4>
+            <p>Can Redeem Offer With Coupon Codes</p>
+        </div>
+    </section>
+    <section id="table-section" >
+        <table>
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>SubTotal</td>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><img src="img/other/remove.png" alt=""></a></td>
+                    <td><img src="products/pro1.jpg" alt=""></td>
+                    <td>Tshirts</td>
+                    <td>$119.oo</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$119.oo</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><img src="img/other/remove.png" alt=""></a></td>
+                    <td><img src="products/pro1.jpg" alt=""></td>
+                    <td>Tshirts</td>
+                    <td>$119.oo</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$119.oo</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><img src="img/other/remove.png" alt=""></a></td>
+                    <td><img src="products/pro1.jpg" alt=""></td>
+                    <td>Tshirts</td>
+                    <td>$119.oo</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$119.oo</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+    <section id="total-section">
+        <div class="total-ele" id="coupon-section">
+            <h3>Apply Coupon</h3>
+            <input type="text" placeholder="Enter Code">
+            <button>Apply</button>
+        </div>
+        <div class="total-ele" id="final-section">
+            <h3>Cart Totals</h3>
+            <table>
+
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>$ 335</td>
+                    </tr>
+                    
+    
+                
+                    <tr>
+                        <td>Shopping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$ 335</td>
+                    </tr>  
+    
+            </table>
+            <button>Proceed To Checkout</button>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="col" id="col1">
+            <img id="logo" src="img/logo.png" alt="">
+            <h6>Contact Details</h6>
+            <p><strong>Address: </strong> Bandra West</p>
+            <p><strong>Contact: </strong>9004780971/9004780981</p>
+            <p><strong>Hours: </strong>10:00 AM to 7:00PM</p>
+        </div>
+        <div class="col" id="col2">
+            <h6>About</h6>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col" id="col3">
+            <h6>My Account</h6>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col" id="col4">
+            <h6>Install Now</h6>
+            <p>Download From Google Play Or App Store</p>
+            <img src="img/other/play.png" alt=""></img>
+            <img src="img/other/app.png" alt=""></img>
+            <p>Secured Payment Gateways</p>
+            <img src="img/other/visa.png" alt=""></img>
+            <img src="img/other/mc.png" alt=""></img>
+        </div>
+
+    </footer>
+    <div class="copyright">
+        <p>2023: HTML CSS made BY Afsan Idrisi</p>
+    </div>
+    <!-- <img src="img/test.png" alt=""> -->
+
+    <script>
+        var pro = document.getElementsByClassName("pro");
+        for (var i = 0; i < pro.length; i++) {
+            pro[i].onclick = function () {
+                window.location.href = "sproduct.html";
+
+            }
+        }
+
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
